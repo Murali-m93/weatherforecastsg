@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: thridcrsg
-        image: thridcrsg.azurecr.io/productrepos:latest
+        image: thridcrsg.azurecr.io/productrepo:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
